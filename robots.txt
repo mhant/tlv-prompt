@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://georgekstein.pages.dev/feed.xml

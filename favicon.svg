@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2005/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="#0b0f19" />
+  <circle cx="50" cy="50" r="38" stroke="url(#grad)" stroke-width="4" fill="none" opacity="0.3" />
+  <!-- Waveform / sound waves -->
+  <line x1="28" y1="50" x2="28" y2="50" stroke="#00f2fe" stroke-width="5" stroke-linecap="round"/>
+  <line x1="39" y1="36" x2="39" y2="64" stroke="#00f2fe" stroke-width="5" stroke-linecap="round"/>
+  <line x1="50" y1="24" x2="50" y2="76" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+  <line x1="61" y1="34" x2="61" y2="66" stroke="#38bdf8" stroke-width="5" stroke-linecap="round"/>
+  <line x1="72" y1="44" x2="72" y2="56" stroke="#60a5fa" stroke-width="5" stroke-linecap="round"/>
+</svg>

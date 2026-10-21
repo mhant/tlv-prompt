@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The TLV Prompt with George K. Stein</title>
+    <link>https://georgekstein.pages.dev</link>
+    <language>en</language>
+    <copyright>Copyright 2026 George K. Stein. All rights reserved.</copyright>
+    <managingEditor>georgekstein@gmail.com (George K. Stein)</managingEditor>
+    <webMaster>georgekstein@gmail.com (George K. Stein)</webMaster>
+    <description>Inside the engineering trenches, startup boardrooms, and frontline realities of Israeli tech. Hosted by George K. Stein, The TLV Prompt features direct, in-depth conversations with the software architects, CTOs, and founders navigating high-stakes engineering decisions, crisis logistics, and scaling under operational pressure.</description>
+    <itunes:author>George K. Stein</itunes:author>
+    <itunes:summary>Inside the engineering trenches, startup boardrooms, and frontline realities of Israeli tech. Hosted by George K. Stein, The TLV Prompt features direct, in-depth conversations with the software architects, CTOs, and founders navigating high-stakes engineering decisions, crisis logistics, and scaling under operational pressure.</itunes:summary>
+    <itunes:subtitle>Engineering Architecture, Founders and Startup Resilience from Tel Aviv</itunes:subtitle>
+    <itunes:type>episodic</itunes:type>
+    
+    <itunes:owner>
+      <itunes:name>George K. Stein</itunes:name>
+      <itunes:email>georgekstein@gmail.com</itunes:email>
+    </itunes:owner>
+
+    <category>Technology</category>
+    <category>Business</category>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Business">
+      <itunes:category text="Entrepreneurship"/>
+    </itunes:category>
+
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://pub-25768f3c3618466690452c1705972ad4.r2.dev/cover.jpg"/>
+    <image>
+      <url>https://pub-25768f3c3618466690452c1705972ad4.r2.dev/cover.jpg</url>
+      <title>The TLV Prompt with George K. Stein</title>
+      <link>https://georgekstein.pages.dev</link>
+    </image>
+    <atom:link href="https://georgekstein.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>Ep. 01 | Physical Over Virtual: Scaling Tech Summits, Wartime Resilience &amp; AI Reality with Ofir Leitner</title>
+      <itunes:title>Ep. 01 | Physical Over Virtual: Scaling Tech Summits, Wartime Resilience &amp; AI Reality with Ofir Leitner</itunes:title>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>George K. Stein</itunes:author>
+      <author>georgekstein@gmail.com (George K. Stein)</author>
+      <description><![CDATA[In the premiere episode of The TLV Prompt, George K. Stein speaks with veteran ecosystem organizer Ofir Leitner, founder of the Israel Mobile Summit and Game Changer Tel Aviv. Ofir breaks down fifteen years of helming the Israel Mobile Summit and founding Game Changer Tel Aviv (focusing on GenAI and gaming, heading into its 3rd edition in 2027). He shares the raw operational realities of staging major events amidst wartime: weathering the 2024 summit where international attendance plunged from 4,500 to 20, navigating the October 2025 postponement following direct Iranian missile attacks while retaining 90-95% of sponsors, and steadfastly rejecting relocations to Cyprus or hybrid/Zoom models. Leitner unpacks why flight costs and personal safety - rather than board boycotts (under 5%) - drive cancellations, how GenAI is transforming monetization and asset production while leaving human B2B relationships untouched, and how Israeli tech is adapting to severe shekel-dollar currency squeezes and tech layoffs ahead of the next Israel Mobile Summit on October 29, 2026 at Expo Tel Aviv.]]></description>
+      <enclosure url="https://pub-25768f3c3618466690452c1705972ad4.r2.dev/tlvprompt-ep01.mp3" length="28310090" type="audio/mpeg"/>
+      <guid isPermaLink="false">tlvprompt-ep01-20261021</guid>
+      <pubDate>Wed, 21 Oct 2026 12:00:00 GMT</pubDate>
+      <itunes:duration>45:00</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:image href="https://pub-25768f3c3618466690452c1705972ad4.r2.dev/cover.jpg"/>
+      <link>https://georgekstein.pages.dev#ep01</link>
+    </item>
+  </channel>
+</rss>

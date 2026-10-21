@@ -140,6 +140,28 @@
       transition: all 0.15s ease-in-out;
     }
 
+    .btn-apple {
+      background: rgba(168, 85, 247, 0.12);
+      color: #c084fc;
+      border-color: rgba(168, 85, 247, 0.3);
+    }
+
+    .btn-apple:hover {
+      background: rgba(168, 85, 247, 0.22);
+      color: #e9d5ff;
+    }
+
+    .btn-spotify {
+      background: rgba(34, 197, 94, 0.12);
+      color: #4ade80;
+      border-color: rgba(34, 197, 94, 0.3);
+    }
+
+    .btn-spotify:hover {
+      background: rgba(34, 197, 94, 0.22);
+      color: #86efac;
+    }
+
     .btn-rss {
       background: rgba(249, 115, 22, 0.12);
       color: #fb923c;
@@ -623,6 +645,20 @@
       </div>
 
       <div class="nav-actions">
+        <a class="btn btn-apple" href="https://georgekstein.pages.dev/apple" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 0.92-2.85-.9.04-1.99.6-2.63 1.35-.57.65-1.06 1.73-.93 2.75 1 .08 2.02-.5 2.64-1.25z"/>
+          </svg>
+          Apple Podcasts
+        </a>
+
+        <a class="btn btn-spotify" href="https://georgekstein.pages.dev/spotify" target="_blank" rel="noopener noreferrer">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.586 14.424c-.18.295-.563.387-.857.207-2.35-1.435-5.308-1.76-8.794-.964-.335.077-.67-.133-.746-.468-.077-.334.132-.67.467-.746 3.808-.87 7.076-.496 9.723 1.12.294.18.386.562.207.857zm1.224-2.719c-.226.367-.706.482-1.072.257-2.687-1.652-6.785-2.131-9.965-1.166-.413.127-.848-.106-.973-.517-.125-.413.108-.848.52-.973 3.632-1.102 8.147-.568 11.233 1.328.366.226.481.707.257 1.072zm.105-2.835C14.692 8.95 8.085 8.73 4.244 9.897c-.494.15-1.017-.129-1.167-.623-.15-.493.13-1.016.624-1.166 4.417-1.34 11.713-1.085 15.72 1.294.444.263.59.84.327 1.284-.264.443-.84.59-1.284.327z"/>
+          </svg>
+          Spotify
+        </a>
+
         <button class="btn btn-rss" onclick="copyFeedUrl()">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
             <path d="M4 11a9 9 0 0 1 9 9"></path>
@@ -675,6 +711,30 @@
           <p class="hero-desc">
             What happens when cutting-edge engineering meets extreme operational pressure? Broadcasting from the epicenter of Israel&apos;s technology corridor, each episode goes beneath superficial pitch decks to examine the architectural decisions, failover designs, and founder resilience powering global platforms. Designed for engineers, technical founders, and startup operators who value production reality over marketing hype.
           </p>
+
+          <div class="listen-bar" style="display:flex; gap:0.75rem; flex-wrap:wrap; margin-top:1.25rem;">
+            <a class="btn btn-apple" href="https://georgekstein.pages.dev/apple" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.37c.62-.75 1.04-1.8 0.92-2.85-.9.04-1.99.6-2.63 1.35-.57.65-1.06 1.73-.93 2.75 1 .08 2.02-.5 2.64-1.25z"/>
+              </svg>
+              Listen on Apple Podcasts
+            </a>
+            <a class="btn btn-spotify" href="https://georgekstein.pages.dev/spotify" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.586 14.424c-.18.295-.563.387-.857.207-2.35-1.435-5.308-1.76-8.794-.964-.335.077-.67-.133-.746-.468-.077-.334.132-.67.467-.746 3.808-.87 7.076-.496 9.723 1.12.294.18.386.562.207.857zm1.224-2.719c-.226.367-.706.482-1.072.257-2.687-1.652-6.785-2.131-9.965-1.166-.413.127-.848-.106-.973-.517-.125-.413.108-.848.52-.973 3.632-1.102 8.147-.568 11.233 1.328.366.226.481.707.257 1.072zm.105-2.835C14.692 8.95 8.085 8.73 4.244 9.897c-.494.15-1.017-.129-1.167-.623-.15-.493.13-1.016.624-1.166 4.417-1.34 11.713-1.085 15.72 1.294.444.263.59.84.327 1.284-.264.443-.84.59-1.284.327z"/>
+              </svg>
+              Listen on Spotify
+            </a>
+            <a class="btn btn-hakatze" href="https://georgekstein.pages.dev/cloudinary" target="_blank" rel="noopener noreferrer">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+              </svg>
+              Cloudinary Feature
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -806,9 +866,12 @@
         <strong>The TLV Prompt with George K. Stein</strong> &bull; &copy; 2026 George K. Stein. All rights reserved.
       </div>
       <div class="footer-links">
-        <a href="/feed.xml" target="_blank">RSS XML</a>
+        <a href="/apple" target="_blank" rel="noopener noreferrer">Apple Podcasts</a>
+        <a href="/spotify" target="_blank" rel="noopener noreferrer">Spotify</a>
+        <a href="/cloudinary" target="_blank" rel="noopener noreferrer">Cloudinary Feature</a>
         <a href="https://blogs.timesofisrael.com/author/george-k-stein/" target="_blank" rel="noopener noreferrer">The Times of Israel (HaKatze)</a>
-        <a href="https://pub-25768f3c3618466690452c1705972ad4.r2.dev/tlvprompt-ep01.mp3">Direct Audio File</a>
+        <a href="/feed" target="_blank">RSS XML</a>
+        <a href="https://pub-25768f3c3618466690452c1705972ad4.r2.dev/tlvprompt-ep01.mp3">Direct MP3</a>
       </div>
     </div>
   </footer>
